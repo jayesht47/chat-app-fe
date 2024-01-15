@@ -8,7 +8,7 @@ export default function SideNav({ user }: { user: User }) {
         {user.name.charAt(0)}
       </div>
       <div className="self-center mt-10">
-        <div className="pt-5">
+        <div className="flex justify-center pt-5 cursor-pointer">
           <Image
             src="dashboard/sidenav/home-icon-inactive.svg"
             width={34}
@@ -16,7 +16,7 @@ export default function SideNav({ user }: { user: User }) {
             alt="Home icon"
           />
         </div>
-        <div className="p-1 mt-10 border-2 border-primary-blue rounded-lg ">
+        <div className="p-1 mt-10 border-2 border-primary-blue rounded-lg cursor-pointer">
           <Image
             src="dashboard/sidenav/chat-icon-active.svg"
             width={34}
