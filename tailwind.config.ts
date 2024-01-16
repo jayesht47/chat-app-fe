@@ -13,12 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    fontFamily: {
-      asap: ["Asap", "sans-serif"],
-    },
-    colors: {
-      "primary-blue": "#615EF0",
+      fontFamily: {
+        asap: ["Asap", "sans-serif"],
+      },
+      colors: {
+        "primary-blue": "#615EF0",
+      },
     },
   },
   plugins: [],
